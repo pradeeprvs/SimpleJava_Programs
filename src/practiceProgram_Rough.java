@@ -1,13 +1,9 @@
 import java.io.BufferedReader;
-import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
-import java.io.Reader;
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collections;
 import java.util.List;
 
 public class practiceProgram_Rough {
@@ -21,6 +17,7 @@ public class practiceProgram_Rough {
 		int[] str= new int[5];
 		str[1]= 1;
 		
+		@SuppressWarnings("unused")
 		List<Object> test=new ArrayList<>(Arrays.asList(str));
 		
 		int LineCount=0,WordCount=0;

@@ -13,13 +13,14 @@ public class lineWordCountTextFile {
 		File textfile = new File(fileloc);
 		
 		int lineCount=0,wordCount=0;
-		String line="";
+		String line=null;
 		
 		try(BufferedReader br=new BufferedReader(new FileReader(textfile)))
 		{
 			while((line =br.readLine())!= null)
 			   lineCount++;
 			
+			@SuppressWarnings("null")
 			String[] words =line.split(" ");
 			   wordCount=wordCount+ words.length;
 			   

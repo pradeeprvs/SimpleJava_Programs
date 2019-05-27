@@ -1,4 +1,4 @@
-import java.io.*; 
+
 class Emp { 
 
 // static variable salary 
@@ -6,8 +6,6 @@ class Emp {
  static String name;
 public Emp(double salary, String name) {
 	super();
-	double salary1 = salary;
-	String name1 = name;
 } 
 void display() {
 	System.out.println("The employee name and Salary are "+salary+" and "+name);
