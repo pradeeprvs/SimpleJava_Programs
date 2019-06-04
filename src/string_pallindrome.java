@@ -4,8 +4,14 @@ public class string_pallindrome {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		String str= "Pradeep";
+		String str= "abcddcba";
 		String rev="";
+		StringBuffer sb= new StringBuffer(str);
+		sb.reverse();
+		if(str.equals(sb.reverse())) {
+			System.out.println("Given string is pallindrome");
+		}
+		
 		
 		
 		//System.out.println(str.charAt(3));//Prints the Character at a particular Index
