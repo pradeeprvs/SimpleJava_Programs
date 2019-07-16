@@ -1,4 +1,4 @@
-package lambda_Expressions;
+package lambda_Expressions_Streams;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -31,7 +31,7 @@ public class Lambda_Expressions {
 		//3.Iterator
 		System.out.println("\nPrinting in the Iterator format");
 		Iterator<String> itr= vehicles.iterator();
-		while(	itr.hasNext()) {
+		while(itr.hasNext()) {
 			System.out.println(itr.next());		
 		}
 		
