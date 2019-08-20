@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 import java.util.stream.Collectors;
-import javafx.util.Pair;
+//import javafx.util.Pair;
 
 public class Map_To_List_conversion {
 
@@ -25,12 +25,12 @@ public class Map_To_List_conversion {
 		
 		System.out.println(rankCompany);
 		
-		 List<Pair<Integer, String>> entryList = rankCompany
-	                .entrySet()
-	                .stream()
-	                .map(e -> new Pair<Integer, String>(
-	                        e.getKey(), e.getValue()))
-	                .collect(Collectors.toList());
+//		 List<Pair<Integer, String>> entryList = rankCompany
+//	                .entrySet()
+//	                .stream()
+//	                .map(e -> new Pair<Integer, String>(
+//	                        e.getKey(), e.getValue()))
+//	                .collect(Collectors.toList());
 
 	}
 
